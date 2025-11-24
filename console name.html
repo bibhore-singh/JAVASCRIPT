@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="myFunction()">
+        <input type="text" placeholder="Enter your name" onfocus="myFunction1(this)"><br>
+        <input type="submit" value="submit">
+    </form>
+<script>
+    function myFunction(){
+        alert('your form is submitted')
+    }
+    function myFunction1(element){
+        element.style.background="green"
+    }
+</script>    
+</body>
+</html>
