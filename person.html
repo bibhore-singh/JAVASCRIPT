@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P id="demo"></P>
+    <script>    
+
+        var person1=20;
+        var person2=15;
+        var person3=18;
+        var result="person 3 is elder";
+        if(person1>person2 && person1>person3){
+            result="person 1 is elder"
+        }
+        else if(person2>person1 && person2>person3){
+            result="person 2 is elder";
+        }
+            document.getElementById("demo").innerHTML=result;
+    
+    </script>
+</body>
+</html>
