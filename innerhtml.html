@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Hello </p>
+    <p class="demo1">Hello2</p>
+    <p class="demo1">Hello3</p>
+    <p class="demo1">Hello4</p>
+    <p class="demo2">Hello5</p>
+    <p class="demo2">Hello6</p>
+    <p class="demo3">Hello7</p>
+    <p class="demo3">Hello8</p> 
+    <script>
+        let para = document.getElementById("demo");
+        para.innerHTML="<b>the content is changed</b>";
+        let para1 = document.getElementsByClassName("demo1");
+        for(let i=0;i<para1.length;i++){
+            para1[i].style.background="RED"
+        }
+    </script>
+</body>
+</html>
