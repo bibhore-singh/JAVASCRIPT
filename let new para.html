@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+        <p>Hello1</p>
+        <p>Hello1</p>
+        <p>Hello1</p>
+        <p>Hello1</p>
+        <p>Hello1</p>
+        <p>Hello1</p>
+        <p>Hello1</p>
+
+    </div>
+    <script>
+        let newpara = document.createElement("p");
+        newpara.textContent = "this is my para";
+        document.getElementById("demo").prepend(newpara);
+    </script>
+</body>
+</html>
